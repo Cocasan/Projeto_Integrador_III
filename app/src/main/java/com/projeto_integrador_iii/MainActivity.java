@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     private Button bTVisualizar;
     private ImageButton ibtnCadastrar;
 
+    //
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
