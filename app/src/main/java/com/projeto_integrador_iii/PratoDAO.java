@@ -34,7 +34,7 @@ public class PratoDAO {
                 prato.setNomeprato(cursor.getString(cursor.getColumnIndex("nomeprato")));
                 prato.setDescricao(cursor.getString(cursor.getColumnIndex("descricao")));
 
-                pratos.add(prato);   //add está em vermelho
+                pratos.add(prato);
 
             }
 
@@ -104,8 +104,8 @@ public class PratoDAO {
 
     }
     public boolean removerprato(int codigo){
-        DBHelper dbHelper= null;                 // não aceita "dbHelper"
-        SQLiteDatabase sqLiteDatabase = null;               // Não aceita "sqLiteDatabase"
+        DBHelper dbHelper= null;
+        SQLiteDatabase sqLiteDatabase = null;
 
         try{
 
