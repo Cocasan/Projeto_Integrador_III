@@ -681,6 +681,7 @@ id all
 id always
 id async
 id bTCadastrar
+id bTCalcular
 id bTCancelar
 id bTVisualizar
 id barrier
@@ -708,7 +709,12 @@ id direct
 id disableHome
 id eTDescricao
 id eTNome
+id eTPratoproduzido
 id eTPreco
+id eTPrecovenda
+id eTQuantidade
+id eTReceitabruta
+id eTResultado
 id edit_query
 id end
 id expand_activities_button
@@ -840,6 +846,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_activit_producao
 layout activity_cadastro
 layout activity_main
 layout activity_visualizar
