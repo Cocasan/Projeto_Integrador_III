@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DBHelper"></activity>
+        <activity android:name=".activit_producao"></activity>
+        <activity android:name=".DBHelper" />
         <activity android:name=".activity_visualizar" />
         <activity android:name=".activity_cadastro" />
         <activity android:name=".MainActivity">
