@@ -6,6 +6,8 @@ public class Prato {
     private String descricao;
     private int quantidade;
 
+
+
     public int getCodigo() {return codigo; }
 
     public void setCodigo(int codigo) { this.codigo = codigo; }

@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteStatement;
 import java.util.ArrayList;
 
 public class PratoDAO {
+    // Testando GIT
+    //ENVIO
 
     private Context context;
 

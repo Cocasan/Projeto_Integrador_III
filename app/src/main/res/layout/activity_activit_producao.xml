@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".activit_producao">
 
+    <EditText
+        android:id="@+id/eTPratoproduzido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Prato Produzido:"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/eTQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Quantidade:"
+        app:layout_constraintTop_toBottomOf="@+id/eTPratoproduzido"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/eTPrecovenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Preco de Venda:"
+        app:layout_constraintTop_toBottomOf="@+id/eTQuantidade"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/bTCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calcular"
+        app:layout_constraintTop_toBottomOf="@+id/eTPrecovenda"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/eTResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/bTCalcular"
+        tools:layout_editor_absoluteX="0dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

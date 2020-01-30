@@ -11,6 +11,7 @@ public class activity_cadastro extends AppCompatActivity implements View.OnClick
     private EditText eTNome;
     private EditText eTDescricao;
     private EditText eTPreco;
+    private EditText eTResultado;
     private Button cancelar;
     private Button cadastrar;
 
